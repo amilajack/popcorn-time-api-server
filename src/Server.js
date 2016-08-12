@@ -1,5 +1,5 @@
 import express from 'express';
-import { convertSubtitlesFromUrl } from './Subtitle';
+import convertSubtitlesFromUrl from './Subtitle';
 
 
 const port = process.env.PORT || 3000;
